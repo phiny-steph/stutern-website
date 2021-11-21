@@ -107,7 +107,7 @@ ul {
   font-size: 3rem;
   color: #1b1642;
   padding: 5rem 5rem 2rem 0;
-  /* padding-bottom: 2rem; */
+  
 }
 
 
@@ -153,7 +153,6 @@ ul {
   display: flex;
   font-family: "epilogue", sans-serif;
   flex-direction: column;
-  /* flex-wrap: wrap; */
   justify-content: space-around;
   align-items: center;
   width: 100vw;
