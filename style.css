@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+body{
+  font-family: "Epilogue", sans-serif;
+  
+}
+
+.header {
+  background-color: #e6f8f9;  
+  display: flex;
+  font-family: 'Inter', sans-serif;
+} 
+
+.stutern {
+  color: #1bd3c6;
+  font-family: font-family: "Inter", sans-serif; 
+}
+
+#header-nav {
+  
+}
+
+.header-ul {
+  display: flex;
+}
+
+
+ul {
+  list-style: none;
+}
+
+.Hero {
+   background-color: #e6f8f9;
+   display: flex;
+   color: #1b1642;
+}
