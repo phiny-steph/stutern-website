@@ -11,8 +11,8 @@ a{
 }
 
 body{
-  font-family: "Epilogue", sans-serif;
-  
+  font-family: "Epilogue", "inter", sans-serif;
+  font-family: "inter", sans-serif;
 }
 
 .header {
@@ -39,8 +39,129 @@ ul {
   list-style: none;
 }
 
+
+/* Hero section */
 .Hero {
    background-color: #e6f8f9;
    display: flex;
+   flex: wrap;
+  
+}
+
+.Hero > aside{
+  padding-top: 7rem;
+  align-items: center;
+  padding-bottom: 8rem;
+}
+
+.Hero-body h1{
+  margin-left: 5rem;
+  font-size: 4rem;
+  color: #1b1642;
+  
+}
+
+.Hero-body p{
+  padding: 2rem 0;
+  font-size: 1rem;
+  color: #1b1642;
+  font-weight: 100;
+  margin-left: 5rem;
+  line-height: 1.5rem;
+
+}
+
+.Hero-btn{
+  border-radius: 0.3rem;
+  background-color: #1bd3c6;
+  color: #1b1642;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.3rem;
+  margin:0 5rem;
+  border: none;
+  font-weight: 50;
+  line-height: 1.8rem;
+  box-shadow: 0 0.1rem rgba(27, 211, 198, 0.25);
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+
+/* Home section */
+.Home {
+  background-color: #fff;
+  display: flex;
+  flex: wrap;
+ 
+}
+
+.Home > aside{
+  padding-top: 7rem;
+  align-items: center;
+  padding-bottom: 15rem;
+}
+
+.Home h1{
+  margin-left: 5rem;
+  font-size: 3rem;
+  color: #1b1642;
+  padding: 5rem 5rem 2rem 0;
+  /* padding-bottom: 2rem; */
+}
+
+
+.Home h1 span {
+  color: #1bd3c6;
+}
+
+
+
+.Home p{
+  padding: 0 5rem 5rem 0;
+  font-size: 1rem;
+  color: #1b1642;
+  font-weight: 100;
+  margin-left: 5rem;
+  line-height: 1.5rem;
+
+}
+
+
+/* first section */
+.first {
+  color: #1b1642;
+  padding: 5rem 0 2rem 0;
+  text-align: center;
+  font-size: 2rem;
+  font-family:" epilogue", sans-serif;
+}
+
+.first p {
+   font-size: 1.1rem;
+   padding: 2rem 0 3rem 0;
+   font-size: 1rem;
    color: #1b1642;
+   font-weight: 300;
+   margin-left: 5rem;
+   line-height: 1.5rem;
+   font-family: "inter", sans-serif;
+}
+
+/* secondsection */
+.second {
+  display: flex;
+  font-family: "epilogue", sans-serif;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  padding: 5rem;
+}
+
+.priors-1,
+.priors-2{
+    display: flex;
+    margin: 3rem;
 }
